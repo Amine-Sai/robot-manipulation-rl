@@ -31,7 +31,7 @@ To solve the hovering problem, I moved from reward shaping to **Goal-Conditioned
 ## Project Structure
 
 ```
-robot-arm/
+robot-manipulation-rl/
 ├── sac/                        # Robosuite SAC implementation (shaped rewards)
 │   ├── custom_lift.py          # CustomLift environment with reward shaping
 │   ├── sac_torch.py            # SAC agent implementation with auto-tuned alpha
@@ -54,15 +54,12 @@ robot-arm/
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/your-username/robot-arm.git
-cd robot-arm
+git clone https://github.com/your-username/robot-manipulation-rl.git
+cd robot-manipulation-rl
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
-
-Main dependencies include: `torch`, `gymnasium`, `gymnasium-robotics`, `robosuite`, `numpy`, and `tensorboard`.
-
 ---
 
 ## How to Run
@@ -112,8 +109,3 @@ tensorboard --logdir=logs
 - Andrychowicz et al., *Hindsight Experience Replay*, 2017.
 - [Gymnasium Robotics Documentation](https://robotics.gymnasium.farama.org/)
 - [Robosuite Documentation](https://robosuite.ai/)
-# robot-manipulation-rl
-# robot-manipulation-rl
-# robot-manipulation-rl
-# robot-manipulation-rl
-# robot-manipulation-rl
