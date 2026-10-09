@@ -12,7 +12,7 @@ from her_buffer import RunningMeanStd
 
 CHECKPOINT = "checkpoints/YOUR_CHECKPOINT.pt"
 ENV_ID = "FetchPickAndPlace-v4"
-NUM_EPISODES = 5
+NUM_EPISODES = 100
 SEED = 42
 
 LOG_STD_MAX = 2
